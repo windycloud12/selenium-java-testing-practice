@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNgSuite">
+    <test name="Test" preserve-order="true" thread-count="5" parallel="classes">
+        <classes>
+            <class name="yahoo.tests.NewsBoardTest"/>
+        </classes>
+    </test>
+</suite>
